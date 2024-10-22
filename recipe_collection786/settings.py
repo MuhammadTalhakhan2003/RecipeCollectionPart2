@@ -36,8 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',    
     'django.contrib.staticfiles',
-    'recipes',
-    'rest_framework',
+    'recipes',  # Your app
+    'rest_framework',  # Django REST framework
 ]
 
 MIDDLEWARE = [
@@ -54,7 +54,6 @@ MIDDLEWARE = [
 
 # CORS configuration
 CORS_ALLOW_ALL_ORIGINS = True  # Allow all origins for development
-
 # If you want to restrict to specific origins, use:
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:3000",
